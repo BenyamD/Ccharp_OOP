@@ -7,7 +7,7 @@ public class Program
 {
     static void Main(string[] args)
     {
-
+        // create student instance
         Student studentInfo = new Student("Benyam", 1234, "Graduate");
         Console.WriteLine(studentInfo.summary());
 
